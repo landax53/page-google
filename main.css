@@ -1,0 +1,237 @@
+@font-face {
+    font-family: 'abelregular';
+    src: url('fonts/abel-regular-webfont.eot');
+    src: url('fonts/abel-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/abel-regular-webfont.woff2') format('woff2'),
+         url('fonts/abel-regular-webfont.woff') format('woff'),
+         url('fonts/abel-regular-webfont.ttf') format('truetype'),
+         url('fonts/abel-regular-webfont.svg#abelregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#topnav
+{
+    display:flex;
+    justify-content: flex-end;      
+    height: 20px;
+    width: 100%
+}
+
+    .mail
+    {
+        margin: 2px;
+        width: 50px;
+    }
+    .images
+    {
+        margin: 2px;
+        width: 50px;
+    }
+    .img
+    {
+        margin: 2px;
+        width: 30px;
+    }
+    .icone
+    {
+        margin: 2px;
+        width: 30px;
+    }
+
+#page
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content:center;
+    height: 300px;
+    width: 600px;
+    margin: 80px 50px 80px 50px
+
+}
+
+
+    #logo
+    {
+    display:flex;
+    justify-content: center; 
+    }
+
+    #searchbar
+    { 
+        position:relative; 
+        width:500px; 
+        height:35px;
+        margin:auto;
+        border: 1px rgb(202, 202, 202) solid;
+        border-radius: 20px / 20px;
+
+    }
+
+    #searchbar:hover 
+    {
+        box-shadow: 2px 2px 3px grey ;    
+    }
+
+        .formulaire             
+        {
+            display:flex;
+        }
+
+        .formulaire .champ      
+        {
+             width:400px; 
+              height:30px;
+        }
+
+        .formulaire .loupe      
+        {
+            background-repeat: no-repeat;
+            width: 35px;
+            height: 35px;
+            padding: 0; 
+        }   
+
+        .formulaire .micro      
+        {
+            background-repeat: no-repeat;
+            width: 35px;
+            height: 35px;
+            padding: 0; 
+        }
+
+
+
+
+
+#conteneur
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;      
+    height: 80px;
+    width: 300px;
+    margin: auto;
+  
+}
+
+
+.element
+{
+    width: 130px;
+    height: 25px;
+
+
+    border-radius: 3px / 3px;
+
+}
+
+.element:nth-child(1)
+{
+}
+.element:nth-child(2)
+{
+}
+
+
+
+
+
+
+a:hover
+{
+    color:black;
+    text-decoration:underline;
+}
+
+
+a:active{}
+
+
+h1
+    {
+        color: white;
+        font-size:0.9em;
+        font-family: 'abelregular',Impact,"Arial Black",Arial;
+        line-height:1.4;
+        text-align:left;
+        background-color:rgba(52, 85, 236, 0.8);
+        width: 100%;
+        height: 30px;
+        min-width: ;
+        max-width: ;
+        margin: ;
+        padding:5px;
+        
+    } 
+
+
+body
+    {
+        color:#444;
+        margin:0px auto;
+        max-width:800px;
+        font-size:1.0em;
+        font-family: 'abelregular',Impact,"Arial Black",Arial;
+        line-height:1.4;
+        background-color:rgba(253, 253, 253, 0.8);
+        
+        text-align:center;
+        padding:010px
+        
+    }
+    
+    h2
+    { 
+        margin:auto;
+    }    
+  
+
+
+
+footer p
+    {
+        border-top: 1px rgb(202, 202, 202) solid;
+        border-bottom: 1px rgb(202, 202, 202) solid;
+        padding-left: 20px;
+        text-align:left
+    }
+
+
+footer
+
+    {
+
+        bottom:0;
+        position:absolute;
+        color: rgb(73, 73, 73);
+        font-size:1.0em;
+        line-height:1.4;
+        background-color:rgba(236, 236, 236, 0.8);
+    }
+
+    #conteneur2
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;      
+        height: 40px;
+        width: 100%;
+    }
+    
+    #conteneur3
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;      
+        height: 20px;
+        width: 100%;   
+    }
+
+    .element2
+    {
+    width: 130px;
+    height: 25px;
+    }
